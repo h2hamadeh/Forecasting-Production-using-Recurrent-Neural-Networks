@@ -7,6 +7,7 @@ This repository contains implementations of Long Short-Term Memory (LSTM) networ
 This project contains two implementations, both of which use a sliding window approach for temporal pattern learning:
 
 **singleouput**
+
 This model implements a single output LSTM model to estimate oil production on day t using:
 - operatiional features from t-(window_size-1) to t (previous window_size days including day t)
 - production features t-window_size to t-1 (previous window_size days excluding day t)
@@ -14,6 +15,7 @@ This model implements a single output LSTM model to estimate oil production on d
 Here, window_size = 8, meaning that the model is estimating today's oil production using the previous 8 days of operational data (t-7 to t) and the previous 8 days of lagging production data (t-8 to t-1).
 
 **multioutput**
+
 This model implements a multi-output LSTM model to forecast oil, gas, and water production on day t+horizon using:
 - operatiional features from t-window_size to t (previous 4 days including day t)
 - production features from t-window_size to t (previous 4 days including day t)
