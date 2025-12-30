@@ -74,13 +74,14 @@ pip install -r requirements.txt
 ### Running the Notebook
 
 Open and run the Jupyter notebook:
-```bash
 
 **singleouput**
+```bash
 jupyter notebook production_forecast_singleoutput.ipynb
 ```
 
 **multioutput**
+```bash
 jupyter notebook production_forecast_multioutput.ipynb
 ```
 
