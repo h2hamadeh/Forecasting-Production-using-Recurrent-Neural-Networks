@@ -22,7 +22,7 @@ This model implements a multi-output LSTM model to forecast oil, gas, and water 
 
 Here, window_size = 4 and horizon = 3, meanig that the model is forecasting production 3 days ahead (t+1 to t+3) using 4 days of past (t-3 to t) operational and production data.
 
-**NOTE:** The model architecture supports the multi-out implementation mentioned above to prediction BORE_OIL_VOL, BORE_GAS_VOL, and BORE_WAT_VOL simu simultaneously, though gas and water are currently commented out in the implementation.
+**NOTE:** The model architecture supports the multi-out implementation mentioned above to prediction BORE_OIL_VOL, BORE_GAS_VOL, and BORE_WAT_VOL simultaneously, though gas and water are currently commented out in the implementation uploaded.
 
 ### Dataset
 
