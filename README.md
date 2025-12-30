@@ -2,11 +2,9 @@
 
 This repository contains implementations of Long Short-Term Memory (LSTM) networks for forecasting oil, gas, and water production from offshore wells using real-world historical data from Equinor's Volve field in the Norwegian North Sea. 
 
-**NOTE:** This work is from 2020/2021, updated in 2024 and uploaded retroactively.
-
 ## Overview
 
-This project contains two implementations, both of which use a sliding window approach for temporal pattern learning:
+This project (from 2020/2021, updated in 2024 and uploaded retroactively) contains two implementations, both of which use a sliding window approach for temporal pattern learning:
 
 **singleouput**
 
