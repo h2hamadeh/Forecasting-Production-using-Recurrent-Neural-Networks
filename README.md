@@ -91,5 +91,5 @@ jupyter notebook production_forecast_multioutput.ipynb
 - [ ] training multiple wells simultaneously
 - [ ] further hyperparameter tuning (random search/systematic grid)
 - [ ] using temporal cross-validation
-- [ ] explore architectures (e.g. atttention mechanisms)
+- [ ] exploring architectures (e.g. atttention mechanisms)
 - [ ] refactoring + congfiguration
