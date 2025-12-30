@@ -32,7 +32,7 @@ The project uses real data from the [**Volve field dataset**](https://www.equino
 - 15,600+ data points
 
 ## Project Structure
-
+```
 production-forecast/
 ├── data/
 │   └── production_volve_data.xlsx
@@ -43,6 +43,7 @@ production-forecast/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+```
 
 ## Tech Stack
 
