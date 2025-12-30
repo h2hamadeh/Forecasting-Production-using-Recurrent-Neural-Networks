@@ -56,12 +56,13 @@ production-forecast/
 ## Installation
 
 1. Clone this repository:
+
 ```bash
 git clone https://github.com/yourusername/production-forecast.git
 cd production-forecast
 ```
-
 2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
